@@ -19,7 +19,7 @@ class Loongtu:
 
         this function will show an email
         '''
-        return 'email: {}.{}@gmail.com'.format(self.name.lower(),self.lastname.lower())
+        return 'email: {}.{}@uncle-engineer.com'.format(self.name.lower(),self.lastname.lower())
 
     def thainame(self):
         print('ประยุทธ์ จันทร์โอชา')
@@ -27,7 +27,16 @@ class Loongtu:
 
     def __str__(self):
         return 'This is a Loongtu class'
+
+
+class Loongpom:
+    def __init__(self):
+        self.name = 'Prawit'
+        self.lastname = 'Wongsuwan'
+        self.nickname = 'Loong Pom'
+        self.thainame = 'ประวิตร วงษ์สุวรรณ'
     
+
 
 if __name__ == '__main__':
 
@@ -50,6 +59,10 @@ if __name__ == '__main__':
     print(mypaa.name)
     print(mypaa.lastname)
     print(mypaa.nickname)
+
+    lp = Loongpom()
+    print(lp.name)
+    print(lp.thainame)
 
 
 
