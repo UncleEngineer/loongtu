@@ -5,14 +5,14 @@ import os.path
 setup(
   name = 'loongtu',         # How you named your package folder (MyLib)
   packages = ['loongtu'],   # Chose the same as "name"
-  version = '0.0.1',      # Start with a small number and increase it with every change you make
+  version = '0.0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Show Loong Tu Name Jaaa',   # Give a short description about your library
   long_description='plese read in: https://github.com/UncleEngineer/loongtu',
   author = 'Loong Wissawakorn',                   # Type in your name
   author_email = 'loong.wissawakorn3@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/UncleEngineer/loongpom',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/UncleEngineer/loongtu/archive/0.0.1.zip',    # I explain this later on
+  download_url = 'https://github.com/UncleEngineer/loongtu/archive/0.0.2.zip',    # I explain this later on
   keywords = ['LOONGTU', 'PRAYUT', 'LUNGTU', 'UncleEngineer'],   # Keywords that define your package best
   install_requires=[
           'loongpom',
